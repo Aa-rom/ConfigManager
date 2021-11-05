@@ -1,4 +1,4 @@
-﻿#region Connect to CM Console 1.1
+﻿#region Connect to CM Console 1.3
 
 # Site configuration
 $SiteCode = "GRE" # Site code 
@@ -29,7 +29,8 @@ Set-Location "$($SiteCode):\" @initParams
 
 #region Global Variables
 
-CLS
+Clear-Host
+
 $SUG = 'Server Quarterly Patches 2021-07-09 14:35:33'
 #$SUG = Read-Host -Prompt 'What is the Software Update Group Name?'
 $ActivityID = Read-Host -Prompt 'What is the Activity ID?'
