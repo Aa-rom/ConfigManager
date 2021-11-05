@@ -1,4 +1,4 @@
-﻿#region Connect to SCCM
+﻿#region Connect to CM Console
 
 # Site configuration
 $SiteCode = "GRE" # Site code 
