@@ -1,4 +1,4 @@
-﻿#region Connect to CM Console 1.1
+﻿#region Connect to CM Console 1.2
 
 # Site configuration
 $SiteCode = "GRE" # Site code 
